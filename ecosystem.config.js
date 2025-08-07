@@ -1,12 +1,12 @@
 module.exports = {
   apps: [
     {
-      name: "ubb-client",
+      name: "jared-comming-soon",
       script: "node_modules/next/dist/bin/next",
       args: "start",
       env: {
         NODE_ENV: "production",
-        PORT: 3000
+        PORT: 3000,
       },
     },
   ],
