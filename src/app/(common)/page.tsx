@@ -70,14 +70,14 @@ export default function JetXClubLanding() {
           <Image
             src={logo}
             alt="JetXClub"
-            className="object-cover max-w-[540px]"
+            className="object-cover max-w-[540px] w-[300px] sm:w-full"
             priority
           />
         </div>
 
         {/* Coming Soon */}
         <div className="mb-6 md:mb-8">
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-wide">
+          <h2 className="text-4xl md:text-6xl lg:text-6xl font-bold tracking-wide">
             COMING SOON
           </h2>
         </div>
@@ -112,7 +112,7 @@ export default function JetXClubLanding() {
               placeholder="Type your email...."
               value={email}
               onChange={(e: any) => setEmail(e.target.value)}
-              className="flex-1 h-12 bg-white text-gray-900 placeholder:text-gray-500 border-0 rounded-none text-base"
+              className="flex-1 h-12 p-4 bg-white text-gray-900 placeholder:text-gray-500 border-0 rounded-none text-base"
               disabled={isLoading}
             />
             <Button
